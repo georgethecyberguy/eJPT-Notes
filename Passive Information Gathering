@@ -1,0 +1,66 @@
+Passive Information Gathering
+
+Commands!!
+
+Host command: performs DNS Lookup
+Host X
+
+WhatWeb
+
+WhoIs
+
+Things to Look For!!
+
+robots.txt - tells search engines what is allowed to take in and make searchable
+"Indexing"
+
+sitemap.xml or sitemaps.xml - a file (xml) used to provide search engines with a way of indexing the website.
+
+Browser Plugins to consider: BuiltWith (FireFox) Wappalyzer
+
+HTTRACK - Download an entire website
+
+
+Website Footprinting with Netcraft!!
+
+Netowrk and Background information
+
+Domain Server Org and IP Address
+
+SSL/TLS Information (also issuer, expiration, etc)
+
+
+DNS Reconnaissance 
+
+Tool: DNSRecon, DNSDumpster
+
+DNSRecon -d (domain) x (Looking at name server (NS), A records (IPv4), AAAA (IPv6), Mail Records (MX)
+
+
+WAF and detecting firewalls with WAFWoof
+
+Sublist3r (Listing Subdomains)
+
+
+Google Dorks aka Google Hacking!!
+
+Search filters to use
+  site
+  inurl: google or * or auth_user_file.txt or passwd.txt * wp-config.bak
+  intitle
+  (intitle):index of
+
+WebCache
+
+WayBackMachine
+
+Google Hacking Database
+
+
+TheHarvester - utilizes public engines to identify emails that are leaked/online. 
+
+
+
+Leaked Password Databases!!
+
+haveibeenpwned.com
