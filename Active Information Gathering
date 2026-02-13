@@ -1,0 +1,24 @@
+Active Information Gathering
+
+DNS Zone Transfer
+DIG
+dnsenum
+fierce
+
+
+Host Discovery with NMAP
+-p port range.
+  -p- all porots or -p1-x (range)
+-F Fast scan 100 ports
+-O Operating System Scan
+
+-sU UDP Port Scan
+-Pn Disable host discovery. Port scan only.
+-sV Service Version scan
+-sC Run Scripts
+-oN Send results to a file
+-oX Send results to XML
+
+-T1 sneaky
+-T4 fast scans 
+-T5 insanely fast and can lead to issues
