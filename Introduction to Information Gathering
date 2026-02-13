@@ -1,0 +1,25 @@
+Introduction to Information Gathering
+
+Target Scoping - What you can and cannot test. This will specifically tell what you can target. 
+Types: Domains (web based) and maybe subdomains
+       IP (hosts or network range)
+       Application (web or mobile, portal, api endpoint)
+
+
+Passive vs Active Reconnaisance
+
+Passive means theres no direction connection with the target. Low risk. Conducted first.
+  Domain registration
+  DNS Records
+  Public Content
+  Search Engine Results (Google Dorking)
+
+Active means theres a direct connection. Increased Visibility. Performed after passive.
+  Live Hosts
+  Open Ports
+  Running Services
+  Network Repsonses
+
+ALWAYS START WITH PASSIVE BEFORE ACTIVE!
+
+What are we trying to do? Build a map of the target. 
